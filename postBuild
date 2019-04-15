@@ -4,6 +4,8 @@ jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
 
+pip install git+https://github.com/jupyterhub/jupyter-rsession-proxy
+
 # jupyter labextension install @jupyterlab/latex
 # jupyter labextension install @mflevine/jupyterlab_html
 # jupyter labextension install jupyterlab-drawio

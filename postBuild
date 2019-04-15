@@ -4,7 +4,7 @@ jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
 
-# jupyter labextension install @jupyterlab/latex
+jupyter labextension install @jupyterlab/latex
 # jupyter labextension install @mflevine/jupyterlab_html
 # jupyter labextension install jupyterlab-drawio
 # jupyter labextension install @jupyterlab/plotly-extension

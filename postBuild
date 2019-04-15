@@ -1,3 +1,5 @@
+/bin/rm /srv/conda/bin/jupyter-notebook
+/bin/ln -s /srv/conda/bin/jupyter-lab /srv/conda/bin/jupyter-notebook
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
